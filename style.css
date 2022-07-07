@@ -1,0 +1,77 @@
+/*#root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: yellow;
+}
+
+#root .date{
+    font-size: 12px;
+    display: block;
+}
+*/
+
+body {
+    background-image: url(./pngAndMp4/—Pngtree—luxury\ white\ super\ sports\ car_5574998.png);
+    background-repeat: no-repeat;
+    background-size: 1000px;
+    background-position: top left 500px;
+    background-color: #224489;
+}
+
+.logo {
+ text-align: center;
+}
+
+.header-2{
+    margin-top: 15px;
+    text-align: center;
+}
+
+.dateBeg {
+    color: lime;
+}
+
+.dateEnd{
+    color: lime;
+}
+
+#dateInicial {
+    background-color:gray;
+    color: lime;
+    border-radius: 5px;
+}
+
+#dateFinal {
+    background-color:gray;
+    color: lime;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color:gray;
+    color: lime;        
+    filter: brightness(1.2);
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+.header-3 {
+    text-align: center;
+    color: lime;
+}
+
+#result1 {
+    color: lime;
+}
+
+.date {
+    text-align: center;
+}
+
+.refresh {
+    background-color: gray;
+    color: lime;
+}

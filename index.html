@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Tempo</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="../01_calculadora_tempo/png/matrix/favicon-32x32.png" type="image/x-icon">
+</head>
+    <body>  
+        <header class="menu-principal"> 
+            <main>
+                 <div class="header-1">
+                    <div class="logo">
+                     <img height="40" src="./pngAndMp4/logo.png">
+                    </div>
+                </div>
+            </main>                
+        </header>
+        <section class="coll-100">
+            <header class="header-2">
+                <form>
+                    <div>
+                    <label class="dateBeg"  for="inicialDate">Informe a data e Horário inicial: </label>
+                    <input type="datetime-local" id="dateInicial" name="inicialDate">
+                    <br>
+                   <label class="dateEnd" for="finalDate">Informe a data e Horário final</label>
+                      <input type="datetime-local" id="dateFinal" name="finalDate">
+                    <br>
+                    <p class="name"></p>
+                    <button type="button" onclick="calcular()" class="button">Calcule a Diferença</button>
+                    </div>
+                </form>
+                <br>
+            </section>
+            <section class="header-3">
+                <h1>Quantidade de horas decorridas: </h1>        
+            </section>
+            <section class="date">
+                <p id="result1"></p>
+                <br>
+                <button type="submit" class="refresh" value="Reload Page" onClick="reload()"> Reload </button>
+                <!-- <output type="text" id="result" style="color: white;"> -->
+                    <div>
+                        <script src="./script1.js"></script>
+                    </div>
+            </section>
+    </body>
+</html> 
